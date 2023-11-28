@@ -1,0 +1,21 @@
+{
+    "name": "kamil/framework",
+    "description": "Simple framework created to write more organised code",
+    "type": "project",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Kamil\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kamil",
+            "email": "KamilWodowski@o2.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-mysqli": "*"
+    }
+}
